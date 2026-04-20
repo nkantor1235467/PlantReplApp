@@ -137,19 +137,19 @@ class Program
 
                                     case "delete":
                                     //code to delete a plant from the database
-                                    // not working, still trying to debug this
-                                    Console.WriteLine(i);
+                                    var DeletedGenus = plantList[i].Genus;
+                                    var DeletedSpecies = plantList[i].Species;
                                     plantList.RemoveAt(i);
-                                    Console.WriteLine(plantList[i].Genus + " " + plantList[i].Species + " deleted.");
+                                    Console.WriteLine(DeletedGenus + " " + DeletedSpecies + " deleted.");
+                                    Console.WriteLine("Returning to main menu");
+                                    challenge4 = false;
                                     break;
                                 }
-
                             }
                             }       else
                             {
-                                Console.WriteLine("Searching, please wait...");
+                                Console.WriteLine("...");
                             }
-                        
                         }
                     break;
 
