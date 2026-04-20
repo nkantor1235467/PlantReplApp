@@ -1,0 +1,14 @@
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\bin\Debug\net10.0\ConsoleAppRepl.exe
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\bin\Debug\net10.0\ConsoleAppRepl.deps.json
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\bin\Debug\net10.0\ConsoleAppRepl.runtimeconfig.json
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\bin\Debug\net10.0\ConsoleAppRepl.dll
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\bin\Debug\net10.0\ConsoleAppRepl.pdb
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ConsoleAppRepl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ConsoleAppRepl.AssemblyInfoInputs.cache
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ConsoleAppRepl.AssemblyInfo.cs
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ConsoleAppRepl.csproj.CoreCompileInputs.cache
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ConsoleAppRepl.dll
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\refint\ConsoleAppRepl.dll
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ConsoleAppRepl.pdb
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ConsoleAppRepl.genruntimeconfig.cache
+C:\Users\nkant\Documents\GitHubRevature\ConsoleAppRepl\ConsoleAppRepl\obj\Debug\net10.0\ref\ConsoleAppRepl.dll
