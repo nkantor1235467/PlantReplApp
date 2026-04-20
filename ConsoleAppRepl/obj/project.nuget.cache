@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "B0jSYXj0qIQ=",
+  "dgSpecHash": "GIM/kBcJYk4=",
   "success": true,
   "projectFilePath": "C:\\Users\\nkant\\Documents\\GitHubRevature\\ConsoleAppRepl\\ConsoleAppRepl\\ConsoleAppRepl.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nkant\\.nuget\\packages\\consoletables\\2.7.0\\consoletables.2.7.0.nupkg.sha512",
+    "C:\\Users\\nkant\\.nuget\\packages\\wcwidth\\1.0.0\\wcwidth.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,6 +1,7 @@
 ﻿//should be using domain name space
 using System.Runtime.CompilerServices;
 using System.Text.Json;
+using ConsoleTables;
 using Domain;
 
 namespace ConsoleAppRepl;
@@ -94,6 +95,15 @@ class Program
                         Console.WriteLine("Species: " + plantList[i].Species);
                         Console.WriteLine("There are " + plantList[i].HowMany + " members of this species in the study area.");
                     }
+                    
+                    //console table
+                    var table = new ConsoleTable("ID", "Genus", "Species", "Plants in study area");
+                    foreach(Plant pl in plantList)
+                    {
+                    table.AddRow(pl.PlantID, pl.Genus, pl.Species, pl.HowMany);
+                    }
+                    table.Write();
+
                     break;
 
                 case "searchplant":
