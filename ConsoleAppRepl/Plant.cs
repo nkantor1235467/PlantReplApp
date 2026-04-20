@@ -3,9 +3,9 @@ namespace Domain;
 //this file contains the parameters for a class Plant
 class Plant
 {
-public string Genus {get;set;}
+public string? Genus {get;set;}
 
-public string Species {get;set;}
+public string? Species {get;set;}
 
 public int HowMany {get;set;}
 

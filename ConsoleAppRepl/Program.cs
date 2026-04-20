@@ -74,7 +74,7 @@ class Program
                     //the ToLower command makes the species name lowercase as it should be
                     var plantSpecies = Console.ReadLine()!.ToLower();
                     Console.WriteLine("Please enter the number of plants in the study area.");
-                    var plantHowMany = int.Parse(Console.ReadLine());
+                    var plantHowMany = int.Parse(Console.ReadLine()!);
                     var plant = new Plant()
                     {
                         Genus = plantGenus!,
@@ -118,7 +118,7 @@ class Program
                             while (challenge4)
                             {
                                 Console.WriteLine("If you wish to update this plant record, type update. If you wish to delete this plant record, type delete. If you wish to return to the main menu, type return.");
-                                string userInputchallenge4 = Console.ReadLine();
+                                string userInputchallenge4 = Console.ReadLine()!;
 
                                 switch (userInputchallenge4)
                                 {
@@ -130,7 +130,7 @@ class Program
                                     case "update":
                                     //code to update a plant
                                     Console.WriteLine("How many additional plants have you found in the study area?");
-                                    var newplantnumber = int.Parse(Console.ReadLine());
+                                    var newplantnumber = int.Parse(Console.ReadLine()!);
                                     plantList[i].HowMany = newplantnumber + plantList[i].HowMany;
                                     Console.WriteLine(plantList[i].Genus + " " + plantList[i].Species + " updated.");
                                     break;
@@ -157,7 +157,7 @@ class Program
                     
                         Console.WriteLine("This code lets you search for a plant based on the number of plants");
                         Console.WriteLine("Enter the number of plants in the study area:");
-                        int HowMany = int.Parse(Console.ReadLine());
+                        int HowMany = int.Parse(Console.ReadLine()!);
 
                         IEnumerable<Plant> queriedPlants = 
                             from queriedplant in plantList
